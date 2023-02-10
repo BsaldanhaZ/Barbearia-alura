@@ -101,21 +101,25 @@ main{
 
 form{
 	margin: 80px 0;
-
+	text-align: center;
 }
 
 form label, form p{
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
+	text-align: center;
 
 }
 
 .input-padrao{
-	display: block;
+	display: inline-flex;
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
+	text-align: center;
+	margin: 0,5rem;
+	
 	
 }
 
@@ -144,18 +148,26 @@ form label, form p{
 
 table{
 	margin: 20px 0 40px;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 2.5rem;
+	
+
 }
 
 thead{
 	background: #555555;
 	color: white;
 	font-weight: bold;
-	text-align: left;
+	margin: auto;
+	text-align: center;
 }
 
 td, th{
 	border: 1px solid #000000;
 	padding: 15px 8px;
+	margin: auto;
+	text-align: center;
 }
 
 .banner{
